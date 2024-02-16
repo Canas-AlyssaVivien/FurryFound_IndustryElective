@@ -1,0 +1,50 @@
+.body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.left {
+    margin-left: 60px;
+    color: white;
+}
+
+h1 {
+    margin-top: 50px;
+    font-size: 100px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.right {
+    margin-right: 0;
+}
+
+.landing-photo {
+    margin-top: 100px;
+    margin-right: 50px;
+    max-width: 650px;
+    height: auto;
+}
+
+.button {
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    border: none;
+    color: #6868AE;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+    font-weight: 600;
+    margin-right: 30px;
+}

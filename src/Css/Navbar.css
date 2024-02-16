@@ -1,0 +1,59 @@
+.NavBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-top: 0;
+  }
+
+  .App-logo {
+    height: 70px;
+    width: auto;
+    margin-left: 30px;
+    margin-right: 20px;
+  }
+
+  .App-name {
+    color: white;
+    font-weight: 700;
+  }
+  
+  .NavBar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .NavBar-right {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .app-bar-button {
+    background-color: transparent;
+    border: none;
+    color: #6868AE;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    font-weight: 500;
+    margin-right: 50px;
+  }
+
+  .last-button {
+    border-radius: 20px;
+    width: 150px;
+    height: 30px;
+    background-color: #6868AE;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    font-weight: 500;
+    margin-right: 30px;
+  }
+  
+  .app-bar-button:hover {
+    text-decoration: underline;
+  }
+  
