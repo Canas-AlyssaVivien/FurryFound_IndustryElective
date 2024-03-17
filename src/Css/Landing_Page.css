@@ -8,19 +8,13 @@
     color: white;
 }
 
-h1 {
-    margin-top: 50px;
-    font-size: 100px;
-    font-weight: 700;
-}
-
 h2 {
     font-size: 25px;
     font-weight: 600;
 }
 
 h4 {
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 500;
 }
 
@@ -35,6 +29,25 @@ h4 {
     height: auto;
 }
 
+.name {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.name h1 {
+    margin: 0; 
+    line-height: 1;
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.para {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
 .button {
     border-radius: 20px;
     width: 200px;
@@ -47,4 +60,73 @@ h4 {
     outline: none;
     font-weight: 600;
     margin-right: 30px;
+}
+
+.signup-form {
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.login-form {
+    margin-left: 150px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.signup-form h3, .login-form h3 {
+    font-size: 36px;
+    color: #6868AE;
+    margin-bottom: 20px;
+}
+  
+.signUp {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+  
+.signUp input {
+    width: 600px;
+    border: none;
+    outline: none;
+    border-bottom: 5px solid #6868AE; 
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 20px;
+    color: #6868AE;
+}
+  
+.signUp button {
+    outline: none;
+    border: none;
+    padding: 10px 15px;
+    background-color: #82D1D9;
+    border-radius: 20px;
+    margin-top: 20px; 
+}
+
+.pangLogIn {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.pangLogIn h5 {
+    font-weight: 500;
+}
+
+.pangLogIn button {
+    background-color: transparent;
+    border: none;
+    color: #6868AE;
+    cursor: pointer;
+    outline: none;
+    margin-top: 0;
 }

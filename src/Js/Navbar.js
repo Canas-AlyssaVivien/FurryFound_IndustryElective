@@ -1,7 +1,7 @@
 import logo from '../Images/logo.png';
 import '../Css/Navbar.css';
 
-function Navbar() {
+function Navbar({ handleGetStarted }) {
   return (
       <div className="NavBar">
         <div className="NavBar-left">
@@ -11,7 +11,7 @@ function Navbar() {
         <div className="NavBar-right">
           <button className="app-bar-button">Home</button>
           <button className="app-bar-button">About Us</button>
-          <button className="last-button">Get Started</button>
+          <button className="last-button" onClick={handleGetStarted}>Get Started</button>
         </div>
       </div>
   );
