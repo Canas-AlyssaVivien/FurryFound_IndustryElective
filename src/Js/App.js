@@ -12,13 +12,11 @@ function App() {
   };
 
   return (
-    <Router>
       <div className='MainPage'>
         <Navbar handleGetStarted={toggleSignUpForm} />
         <Landing_Page showSignUpForm={showSignUpForm} toggleSignUpForm={toggleSignUpForm} />
       </div>
-    </Router>
   );
-}
+} 
 
 export default App;

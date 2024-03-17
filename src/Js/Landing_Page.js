@@ -1,13 +1,19 @@
 import logo from '../Images/landing_photo.png';
 import '../Css/Landing_Page.css';
+import { useNavigate } from 'react-router-dom';
 import React, { useState } from 'react';
 
 function Landing_Page({ showSignUpForm, toggleSignUpForm }) {
   const [showLogInForm, setShowLogInForm] = useState(false);
+  const navigate = useNavigate();
 
   const toggleLogInForm = () => {
     toggleSignUpForm(false);
     setShowLogInForm(!showLogInForm); 
+  };
+
+  const handleLogin = () => {
+    navigate('/pets');
   };
   
   return (
@@ -51,7 +57,8 @@ function Landing_Page({ showSignUpForm, toggleSignUpForm }) {
               </div>
             </form>
           ) : showLogInForm ? (
-            <form className="login-form">
+            // <form className="login-form">
+            <form className="login-form" onSubmit={handleLogin}>
               <div className='signUp'>
                 <h3>LOG IN</h3>
                 <input type="email" placeholder="Email Address" />
